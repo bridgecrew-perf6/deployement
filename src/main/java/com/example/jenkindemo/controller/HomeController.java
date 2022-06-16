@@ -14,5 +14,10 @@ public class HomeController {
 	{
 		return "message fromm rohan";
 	}
+	@GetMapping("/msg2")
+	public String mes()
+	{
+		return "message from rjb007";
+	}
 
 }
